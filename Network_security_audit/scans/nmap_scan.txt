@@ -1,1 +1,22 @@
+# Nmap 7.93 scan initiated Thu Sep 18 2025
+# Scan target: 192.168.56.0/24
+Nmap scan report for 192.168.56.10
+Host is up (0.00039s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.9p1 Debian 10+
+80/tcp   open  http    Apache httpd 2.4.38
+139/tcp  open  netbios-ssn Samba smbd 3.X
+445/tcp  open  microsoft-ds Samba smbd 4.7.6
+MAC Address: 08:00:27:12:34:56 (Oracle VirtualBox virtual NIC)
 
+Nmap scan report for 192.168.56.20
+Host is up (0.00047s latency).
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     vsftpd 3.0.3
+25/tcp  open  smtp    Postfix smtpd
+80/tcp  open  http    nginx 1.14.2
+3306/tcp open  mysql   MySQL 5.7.33
+MAC Address: 08:00:27:65:43:21 (Oracle VirtualBox virtual NIC)
+
+# Nmap done: 256 IP addresses (5 hosts up) scanned in 12.45 seconds
