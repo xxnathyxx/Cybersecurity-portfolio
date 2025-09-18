@@ -9,6 +9,7 @@ Este repositorio contiene un proyecto práctico de **auditoría de seguridad en 
 ```
 Auditoria-Seguridad-Redes/
 │── README.md
+│── notebook.ipynb
 │── /docs
 │    ├── informe_auditoria.pdf      # Reporte final (ejemplo/placeholder)
 │    ├── checklist_auditoria.md
