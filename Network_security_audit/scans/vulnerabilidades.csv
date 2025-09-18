@@ -1,0 +1,6 @@
+host,port,service,vuln_id,severity,description,remediation
+192.168.56.10,22,ssh,CVE-2018-15919,Medium,Weak SSH algorithms enabled,Disable weak ciphers/KEX; upgrade OpenSSH
+192.168.56.10,80,http,CVE-2017-5638,High,Outdated Apache version with known RCE,Upgrade Apache to latest stable and apply vendor patches
+192.168.56.10,445,samba,CVE-2017-7494,Critical,Writable service leading to remote code execution (Samba),Apply Samba patch; restrict shares and permissions
+192.168.56.20,21,ftp,-,Medium,FTP without TLS — credentials may be transmitted in cleartext,Use SFTP/FTPS or disable FTP and enforce secure alternatives
+192.168.56.20,3306,mysql,-,Low,MySQL accessible from network — weak authentication policies possible,Bind MySQL to localhost or firewall the port; enforce strong passwords
